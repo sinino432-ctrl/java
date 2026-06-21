@@ -1,0 +1,14 @@
+public class RunStatementExample {
+    public static void main(String[] args) {
+        // 1. 변수 선언 및 값 저장
+        int x = 1;          // 변수 x를 선언하고 1을 저장합니다.
+        int y = 2;          // 변수 y를 선언하고 2를 저장합니다.
+        
+        // 2. 연산 수행
+        int result = x + y; // x와 y를 더한 값을 result 변수에 저장합니다.
+        
+        // 3. 결과 출력
+        // 콘솔에 "1+2=3" 형식으로 출력합니다.
+        System.out.println(x + "+" + y + "=" + result); 
+    }
+}
